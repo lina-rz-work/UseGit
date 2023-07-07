@@ -1,0 +1,27 @@
+
+/* event.type */
+.click_type {
+    background-color: chartreuse;
+}
+
+.dblclick_type {
+    background-color: red;
+}
+
+
+/* event.target / this */
+ul {
+	padding: 30px;
+	border: 1px solid red;
+}
+li {
+	list-style-type: none;
+	margin-bottom: 20px;
+	border: 1px dashed black;
+}
+
+
+/* ctrlKey / altKey / shiftKey */
+.colored {
+    background-color:blueviolet;
+}

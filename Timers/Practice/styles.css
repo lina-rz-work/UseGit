@@ -1,0 +1,10 @@
+
+.par {
+    color: red;
+    transition: 0.2s linear;
+}
+
+.blink {
+    color: forestgreen;
+    transition: 0.2s linear;
+}

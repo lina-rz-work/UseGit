@@ -1,0 +1,62 @@
+/* bubbling */
+/* 1, 2 */
+.first_block {
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+    padding: 1px;
+    background: #ff3e3e;
+}
+
+.second_block {
+    width: 140px;
+    height: 140px;
+    margin: 30px;
+    padding: 1px;
+    background: #ff8f25;
+}
+
+.third_block {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    padding: 1px;
+    background: #fffb1b;
+}
+
+
+/* my exaple */
+/* ul {
+	padding: 30px;
+	border: 1px solid red;
+}
+
+li {
+	list-style-type: none;
+	margin-bottom: 20px;
+	border: 1px dashed black;
+} */
+
+
+
+/* Получение целевого элемента при всплытии событий */
+div, ul, li {
+	padding: 20px;
+}
+
+div {
+	border: 1px solid red;
+}
+ul {
+	border: 1px solid orange;
+}
+li {
+	border: 1px solid green;
+}
+
+
+
+/* stopPropagation() */
+#block:not(.active) {
+	display: none;
+}
